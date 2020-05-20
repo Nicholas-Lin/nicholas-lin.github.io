@@ -1,2 +1,2 @@
-# portfolio
-This is a website of my personal projects and resume
+# Portfolio
+This is a website portfolio of my personal projects and resume
