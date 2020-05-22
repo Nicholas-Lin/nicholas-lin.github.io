@@ -27,3 +27,10 @@
   });
 
 })(jQuery); // End of use strict
+
+window.addEventListener("scroll", function(){
+  var nav = document.getElementById("main-nav");
+  nav.classList.toggle("scrolled", window.scrollY >$(window).height());
+});
+
+
