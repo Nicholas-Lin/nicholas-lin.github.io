@@ -1,3 +1,7 @@
 1. Fix hamburger nav on mobile
 2. Fix mini nav hover
 3. Implement projects
+    - This website
+    - Visionary
+    - Capital One
+    - Research Simulations
