@@ -1,7 +1,8 @@
 1. Fix hamburger nav on mobile
-2. Fix mini nav hover
-3. Implement projects
+2. Implement projects
     - This website
     - Visionary
     - Capital One
     - Research Simulations
+3. Add linkedin and github to about me
+4. Add Phone #, email, resume (w/o address) to contact
