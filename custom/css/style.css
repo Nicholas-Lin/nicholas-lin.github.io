@@ -7,6 +7,14 @@ html,body
     margin: 0px;
     padding: 0px;
 }
+.about-section h1{
+    margin-bottom: 1em;
+}
+
+.about-section p{
+    font-size: large;
+    line-height: 2em;
+}
 
 a:hover{
     text-decoration: none;
@@ -63,7 +71,7 @@ a{
 .scrolled{
     position: fixed;
     margin-top: -130px;
-    background: rgba(0, 0, 0, 0.568) !important;
+    background: rgba(0, 0, 0, 0.698) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px;
@@ -129,8 +137,8 @@ section{
     background-color: #1a1a1a; 
 }
 
-.navbar-brand {
-    color: #ffffff;
+.navbar-dark .navbar-brand {
+    color: #3e64ff;
     font-weight: 800;
     font-size: 24px;
 }
@@ -313,6 +321,8 @@ nav a:hover:after {
   }
 
   #main-nav .nav-link{
-    color: rgba(255, 255, 255, 0.726);
+    color: rgb(255, 255, 255);
 }
+
+
 
