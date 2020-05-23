@@ -159,6 +159,15 @@ a:hover:after {
   left: 0; 
 }
 
+.slider-text h2 span {
+    color: #3e64ff;
+    text-decoration: underline;
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+}
+
 .mouse-indicator{
     width: 70px;
     height: 70px;
