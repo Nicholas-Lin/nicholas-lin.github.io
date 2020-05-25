@@ -1,8 +1,7 @@
-1. Fix hamburger nav on mobile
-2. Implement projects
+1. Implement projects
     - This website
     - Visionary
     - Capital One
     - Research Simulations
-3. Add linkedin and github to about me
-4. Add Phone #, email, resume (w/o address) to contact
+2. Add scroll active
+3. Add animations

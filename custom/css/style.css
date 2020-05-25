@@ -34,7 +34,6 @@ body{
 
 .navbar{
     background: transparent !important;
-    height:60px;
     top: 0;
     left: 0;
     right: 0;
@@ -84,7 +83,7 @@ a{
 
 #contact .box {
     width: 100%;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(34, 34, 34);
     display: block;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -105,11 +104,30 @@ a{
 #about i:hover{
     color: #3e64ff;
 }
+#contact h1{
+    vertical-align: middle;
+}
 
-#resume ul{
-    padding-top: 1em;
+#contact .col-md-4{
+    margin-bottom: 3em;
+}
+#contact img{
+    width: 100%;
+}
+
+#resume #navi ul{
     padding-bottom: 4em;
 }
+#resume .page ul{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#resume .page li{
+    margin-top: 5px;
+    line-height: 1.3;
+}
+
 
 .text-center {
     text-align: center !important;
@@ -117,7 +135,6 @@ a{
 .p-4 {
     padding: 1.5rem !important;
 }
-
 
 .resume-wrap .date {
     font-weight: 700;
@@ -278,7 +295,7 @@ nav a:hover:after {
 }
 
 #navi {
-    top: 180px;
+    top: 200px;
     position: -webkit-sticky;
     position: sticky;
     margin: 0;
@@ -322,11 +339,20 @@ nav a:hover:after {
 .resume-wrap .icon {
     width: 50px;
     height: 50px;
-    background: #3e64ff;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
+    background: #ffffff;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
     border-radius: 50%;
+    /* round the edges to a circle with border radius 1/2 container size */
+}
+
+.resume-wrap .icon-formatter {
+
 }
 
 .no-gutters {
