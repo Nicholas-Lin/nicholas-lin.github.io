@@ -48,10 +48,25 @@ a{
   display: inline-block;
 }
 
-#projects a{
+#project-cards a{
     width: 100%;
     height: 100%
 }
+
+#projects i {
+    font-size: 50px;
+    margin-right: 1em;
+}
+
+hr{
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1); 
+}
+
+.carousel-inner > .item > img {
+    min-width: 100%;
+    width: 100%;
+  }
 
 .heading {
     font-weight: 800;
@@ -338,8 +353,8 @@ nav a:hover:after {
 }
 
 .resume-wrap .icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #ffffff;
 
     /* fill the container, preserving aspect ratio, and cropping to fit */
@@ -347,13 +362,16 @@ nav a:hover:after {
     background-repeat: no-repeat;
 
     /* center the image vertically and horizontally */
-    background-position: center;
-    border-radius: 50%;
+    background-position: center center;
     /* round the edges to a circle with border radius 1/2 container size */
 }
 
 .resume-wrap .icon-formatter {
-
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    align-items: center;
 }
 
 .no-gutters {
