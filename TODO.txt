@@ -6,3 +6,4 @@
 2. Add scroll active
 3. Add animations
 4. Fix about section height
+5. Fix round icons in resume
