@@ -1,4 +1,7 @@
 1. Implement projects
+    - Carousel responsive
+        - height
+        - stack columns on smaller screens
     - This website
     - Visionary
     - Capital One
