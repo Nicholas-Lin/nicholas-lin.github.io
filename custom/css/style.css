@@ -59,15 +59,29 @@ a{
 }
 
 #projects .carousel-inner .carousel-item{ 
-    height: 500px; 
+    
+    height: 30vw; 
+    min-height: 370px;
     background-size:cover;
     background-position: center center;
  }
+
+.project-description, .project-carousel{
+    margin-bottom: 5vh;
+}
+
 
  .project-description p{ 
     margin-bottom: 2em;
  }
 
+ .project{
+     margin-bottom: 4em;
+ }
+
+ .project p{
+     font-size: medium;
+ }
 
 
  .carousel-caption{
@@ -85,7 +99,6 @@ a{
     position:absolute;
     background-color: rgba(0, 0, 0, 0.671);
 }
-
 
   
 
