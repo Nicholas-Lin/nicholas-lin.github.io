@@ -8,13 +8,19 @@ html,body
     padding: 0px;
 }
 .about-section h1{
+    font-size: 50px;
     margin-bottom: 1em;
 }
 
 .about-section p{
-    font-size: large;
+    font-size: medium;
     line-height: 2em;
 }
+
+.about-section {
+    position: relative;
+}
+
 
 a:hover{
     text-decoration: none;
@@ -57,18 +63,28 @@ a{
     font-size: 50px;
     margin-right: 1em;
 }
-
+#projects .carousel, .carousel-inner{
+    height: 100%;
+}
+@media (max-width: 1200px) {
+    #projects .carousel, .carousel-inner{
+        height: 40vw;
+        margin-bottom: 2em;
+    }
+ }
 #projects .carousel-inner .carousel-item{ 
-    
-    height: 30vw; 
-    min-height: 370px;
-    background-size:cover;
+    /*height: 30vw; */
+    /*max-width: 60vw;*/
+    /*min-height: 370px;*/
+  
+    min-height: 420px;
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
  }
 
-.project-description, .project-carousel{
-    margin-bottom: 5vh;
-}
+ 
 
 
  .project-description p{ 
@@ -76,7 +92,7 @@ a{
  }
 
  .project{
-     margin-bottom: 4em;
+     margin-bottom: 5em;
  }
 
  .project p{
@@ -113,10 +129,7 @@ a{
     flex-direction: column;
     position: relative;
  }
- .project-description .row{
-    
-    vertical-align: bottom;
- }
+
 
 
 

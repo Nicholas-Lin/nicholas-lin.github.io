@@ -86,24 +86,21 @@
           <img class="img-fluid" src="images/about.jpg" alt="">
         </div>
         <div class="col-md-6 col-lg-6 pl-md-5">
-          <div class="row justify-content-start pb-3">
-            <div class="col-md-12 about-section ftco-animate fadeInUp ftco-animated">
-              <h1>About Me</h1>
-              <p> I have a passion of learning and applying knowledge to solve complex problems.
-                I value techincal knowledge as much as communication, empathy, and collaboration.
-                Some of my interests include machine learning, cybersecurity, and research.
-                If you're changing the world, you're working on important things. You're excited to get up in the morning.
-
-              </p>
-              <div class="row no-gutters justify-content-left">
-                <a target="_blank" href="https://www.linkedin.com/in/nlin10/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
-              </div>
+          <div class="row no-gutters d-flex flex-column about-section ftco-animate fadeInUp ftco-animated h-100">
+            <h1>About Me</h1>
+            <p> I have a passion of learning and applying knowledge to solve complex problems.
+              I value techincal knowledge as much as communication, empathy, and collaboration.
+              Some of my interests include machine learning, cybersecurity, and research.
+              If you're changing the world, you're working on important things. You're excited to get up in the morning.
+  
+            </p>
+            <div class="row mt-auto no-gutters justify-content-left">
+              <a target="_blank" href="https://www.linkedin.com/in/nlin10/"><i class="fab fa-linkedin"></i></a>
+              <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <section id="resume">
@@ -419,20 +416,19 @@
 
   <section id="projects">
     <div class="container-fluid">
-      <div class="row justify-content-center">
+      <div class="row d-flex flex-column">
         <div class="col-md-12 heading-section text-center py-5">
           <h1>Projects</h1>
           <h3>Here are some exciting projects I've been working on</h3>
         </div>
 
-        <div id="project-1" class="row ml-5 mr-5 d-flex project">
-          <div class="col-xl-6 align-self-center" >
-
+        <div id="project-1" class="row ml-5 mr-5 project">
+          <div class="col-xl-6" >
             <div id="project-carousel-1" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#project-carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#project-carousel-1" data-slide-to="1"></li>
+                <li data-target="#project-carousel-1" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url(images/projects/project1/home.png)  ">
@@ -492,14 +488,14 @@
             </div>
           </div>
         </div>
-        <div id="project-2" class="row ml-5 mr-5 d-flex project">
-          <div class="col-xl-6 align-self-center" >
+        <div id="project-2" class="row ml-5 mr-5 project">
+          <div class="col-xl-6 " >
 
             <div id="project-carousel-2" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#project-carousel-2" data-slide-to="0" class="active"></li>
+                <li data-target="#project-carousel-2" data-slide-to="1"></li>
+                <li data-target="#project-carousel-2" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url(images/projects/project2/screen-reader.png)  ">
@@ -511,7 +507,8 @@
                   </div>
                 </div>
           
-                  <div class="carousel-item" style="background-image: url(images/projects/project2/diagram.png)  ">
+                  <div class="carousel-item" style="background-image: url(images/projects/project2/diagram.png); background-size: contain;
+                  background-repeat: no-repeat; background-color: white;">
                     <div class="overlay">
                       <div class="carousel-caption d-none d-md-block">
                         <h5>The is an image title</h5>
@@ -554,14 +551,14 @@
             </div>
           </div>
         </div>
-        <div id="project-3" class="row ml-5 mr-5 d-flex project">
-          <div class="col-xl-6 align-self-center" >
+        <div id="project-3" class="row ml-5 mr-5 project">
+          <div class="col-xl-6" >
 
             <div id="project-carousel-3" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#project-carousel-3" data-slide-to="0" class="active"></li>
+                <li data-target="#project-carousel-3" data-slide-to="1"></li>
+                <li data-target="#project-carousel-3" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url(images/projects/project3/lidar_sim_1.png)  ">
@@ -621,53 +618,15 @@
             </div>
           </div>
         </div>
-        <div id="project-4" class="row ml-5 mr-5 d-flex project">
-          <div class="col-xl-6 align-self-center" >
-
+        <div id="project-4" class="row ml-5 mr-5 project">
+          <div class="col-xl-6" >
             <div id="project-carousel-4" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
               <div class="carousel-inner">
-                <div class="carousel-item active" style="background-image: url(images/projects/project3/lidar_sim_1.png)  ">
-                  <div class="overlay">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
-                    </div>
-                  </div>
+                <div class="carousel-item active" style="background-image: url(images/projects/project4/landing.png)  ">
+                    
                 </div>
-          
-                  <div class="carousel-item" style="background-image: url(images/projects/project3/lidar_sim_2.png)  ">
-                    <div class="overlay">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>The is an image title</h5>
-                        <p>This is a description for this image. It is not very long.</p>
-                      </div>
-                    </div>
-                  </div>
-                    <div class="carousel-item" style="background-image: url(images/projects/project3/ray_sim.gif)  ">
-                      <div class="overlay">
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>The is an image title</h5>
-                          <p>This is a description for this image. It is not very long.</p>
-                        </div>
-                      </div>
-                    </div>
-        
               </div>
-              <a class="carousel-control-prev" href="#project-carousel-4" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#project-carousel-4" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-
           </div>
           <div class="col-xl-6 project-description" >
             <h2>My Portfolio (This Website)</h2>
@@ -682,43 +641,6 @@
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
               <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-        
-
-        <div id="project-cards" class="row ml-5 mr-5">
-          <div class="col-md-6 d-flex" >
-            <div class="content shadow project-1">
-              <a href="#" class="project js-scroll-trigger">
-                <h2 class="title">Voice Assistant Screen Reader</h2>
-                <p class="text">Software prototype that enables blind and vision-impaired users to navigate and access content on the internet through voice commands.</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex" >
-            <div class="content shadow project-2">
-              <a href="#" class="project ">
-                <h2 class="title">Hungry?</h2>
-                <p class="text">Find out more about New Zealand weather patterns and learn more about typical temperatures for seasons. Find out what to wear for each climate.</p>
-              </a>
-            </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-6 d-flex" >
-            <div class= "content shadow project-3">
-              <a href="#" class="project">
-                <h2 class="title">LiDAR and Ray-Tracing Simulations</h2>
-                <p class="text">Find out more about New Zealand weather patterns and learn more about typical temperatures for seasons. Find out what to wear for each climate.</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex" >
-            <div class="content shadow project-4">
-              <a href="#" class="project ">
-                <h2 class="title">This Website</h2>
-                <p class="text">Find out more about New Zealand weather patterns and learn more about typical temperatures for seasons. Find out what to wear for each climate.</p>
-              </a>
             </div>
           </div>
         </div>
