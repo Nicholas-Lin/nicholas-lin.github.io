@@ -13,8 +13,12 @@ html,body
 }
 
 .about-section p{
-    font-size: medium;
+    font-size: large;
     line-height: 2em;
+}
+
+#about .img-fluid{
+    max-height: 300pxpx;
 }
 
 .about-section {
@@ -26,6 +30,8 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
+
+
 
 header{
     padding-top: 50px;
@@ -67,7 +73,7 @@ a{
     height: 100%;
 }
 @media (max-width: 1200px) {
-    #projects .carousel, .carousel-inner{
+    #projects .carousel, #projects .carousel-inner{
         height: 40vw;
         margin-bottom: 2em;
     }
@@ -238,8 +244,7 @@ hr{
 
 .scrolled{
     position: fixed;
-    margin-top: -130px;
-    background: rgba(0, 0, 0, 0.698) !important;
+    background: rgba(0, 0, 0, 0.952) !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 0 15px;
@@ -248,6 +253,7 @@ hr{
     -webkit-transition: .3s all ease-out;
     -o-transition: .3s all ease-out;
     transition: .3s all ease-out;
+    min-height: 50px;
 }
 
 #particles-js{ 
@@ -319,9 +325,7 @@ section{
 
 nav a {
   color: #fff;
-  text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
   
 }
 nav a:after {    
@@ -336,10 +340,33 @@ nav a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-nav a:hover:after { 
+#main-nav a:hover:after, #main-nav .active:after { 
   width: 100%; 
   left: 0; 
 }
+
+#navi li a:hover, #navi li a.active{
+    color: #3e64ff;
+    margin-left: 20px;
+    position: relative;
+}
+a{
+    transition: .3s all ease;
+}
+
+#navi li a.active:after,#navi li a:hover:after{
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    width: 20px;
+    height: 2px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #3e64ff;
+}
+
 
 .slider-text h2 span {
     color: #3e64ff;
@@ -352,10 +379,9 @@ nav a:hover:after {
 
 @media screen and (max-width: 990px) {
     .img-fluid {
-        
         object-position: 100% 0;
         object-fit: cover;
-        min-height: 570px;
+        min-height: 100%;
     }
   }
 
