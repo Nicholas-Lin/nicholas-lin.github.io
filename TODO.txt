@@ -1,12 +1,5 @@
 1. Implement projects
-    - Carousel responsive
-        - height
-        - stack columns on smaller screens
-    - This website
-    - Visionary
-    - Capital One
-    - Research Simulations
 2. Add scroll active
 3. Add animations
-4. Fix about section height
-5. Fix round icons in resume
+4. Fix skill carousel on mobile
+    Fix caption display on mobile
