@@ -69,6 +69,12 @@ a{
     color:white;
     font-size: 50px;
     margin-right: 1em;
+    transition: 200ms ease-in-out;
+}
+
+#projects i:hover, svg:hover {
+    color:#3e64ff;
+    font-size: 55px;
 }
 
 #projects .carousel, .carousel-inner{
@@ -80,7 +86,7 @@ a{
     /*max-width: 60vw;*/
     /*min-height: 370px;*/
   
-    min-height: 420px;
+    min-height: 450px;
     align-self: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -198,7 +204,7 @@ hr{
 
 #icon .box .icon span,i {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #about i{
@@ -206,9 +212,7 @@ hr{
     margin-right: 1em;
 }
 
-#about i:hover{
-    color: #3e64ff;
-}
+
 #contact h1{
     vertical-align: middle;
 }
@@ -649,3 +653,29 @@ a{
  .animate_stagger_3{
     animation-delay: 0.3s;
  }
+
+ .btn.btn-primary {
+    background: #3e64ff;
+    border: 1px solid #3e64ff !important;
+    color: #fff !important;
+}
+.btn.btn-primary:hover {
+    border: 1px solid #3e64ff !important;
+    background: #3e64ff !important;
+    color: #000000 !important;
+}
+
+.btn {
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}

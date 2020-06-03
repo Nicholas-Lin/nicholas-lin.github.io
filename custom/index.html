@@ -99,8 +99,8 @@
 
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
-              <a target="_blank" href="https://www.linkedin.com/in/nlin10/"><i class="fab fa-linkedin"></i></a>
-              <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
+              <a href="#" class="btn btn-primary py-3 px-3">Download CV</a>
+              
             </div>
           </div>
         </div>
@@ -499,7 +499,6 @@
           <div class="col-xl-6 project-description wow animate__animated animate__fadeInUp">
             <h2>Crave (My First Web App)</h2>
             <p>
-
               This web application uses Yelp's Fusion API to help users pick a restaurant or experience.
               The app obtains user location via HTML5 Geolocation and plots merchants on a map based on search terms
               and search rules. I built this app with HTML, CSS, Javascript, and the Bootstrap library. I leveraged the
@@ -540,8 +539,11 @@
                   style="background-image: url(images/projects/project2/screen-reader.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>The Vision</h5>
+                      <p>My vision of a more accessible internet uses voice commands to navigate the internet.
+                        Imagine the ease of use of Google Voice Assistant and Amazon Alexa, but with the ability
+                        visit and interact with any website.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -550,8 +552,9 @@
                   background-repeat: no-repeat; background-color: white;">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>Data Flow Model</h5>
+                      <p>This is a high-level diagram of how the prototype works. the prototype can process the user’s voice as input, 
+                        produce a text and audio response as output, and navigate through the New York Times website and YouTube.</p>
                     </div>
                   </div>
                 </div>
@@ -559,8 +562,13 @@
                 background-repeat: no-repeat; background-color: white;">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>Scalable Model</h5>
+                      <p>
+                        Neural networks can be leveraged to scale this model to other websites.
+                        Machine learning can recognize common website structures,
+                        identify headers, main content, links, etc. and use the website’s structure to extract information.
+                        This information can then be "cached" so that frequently visited websites only need to be analyzed once.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -578,18 +586,19 @@
 
           </div>
           <div class="col-xl-6 project-description wow animate__animated animate__fadeInUp">
-            <h2>Voice Assistant Screen Reader</h2>
+            <h2>Visionary (Voice Driven Screen Reader)</h2>
             <p>
-              I was inspired by an article about the struggles that blind individuals faced when using the internet. 
+              I was inspired by an article about the struggles that blind individuals face when using the internet. 
               In order to navigate websites, blind individuals use software which reads aloud every element of a webpage, 
               often overwhelming the user with extraneous information. I envisioned a screen reader that would allow users to 
-              effectively control their browsers by using voice commands.  Currently, the prototype can process the user’s voice as input, 
-              produce a text and audio response as output, and navigate through the New York Times website and YouTube.
+              effectively control their browsers by using voice commands.
               I developed this in Python because of the many robust libraries written for Python. 
-              Libraries act as tools for us to perform key functions such as converting text to voice or navigating through web pages for the user. 
-              The essential libraries that I used were Speech Recognition, Beautiful Soup, and Selenium.
-              I used Speech Recognition to convert between audio and text, Beautiful Soup to parse HTML and extract key information, and Selenium to control
-              the user's web browser.
+              The program first processes vocal input from the user and converts this voice to text using the Speech Recognition65 library which leverages  
+              Google’s Speech to Text API. The program then parses the input for keywords based on the content that the user is viewing.
+              Then the program uses the Selenium library to automate the web browser accordingly. The program then uses Beautiful Soup
+              to parse the HTML for key information and stores this information in objects. Lastly, the program composes output based on 
+              the user input and the appropriate Object data, then converts this output to voice for the user.
+              I am currently researching integrating AI/ML or leveraging an accessibility API to scale this to other websites.
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
               <a target="_blank" href="https://www.linkedin.com/in/nlin10/">
@@ -758,36 +767,41 @@
       </div>
       <div class="row d-flex contact-info mb-5">
         <div class="col-md-4 d-flex wow animate__animated animate__fadeInUp animate_stagger_1">
+          
           <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <i class="fas fa-portrait"></i>
-            </div>
-            <div>
-              <h3 class="mb-4">Resumé</h3>
-              <p><a href="#">Download</a></p>
-            </div>
+            <a target="_blank" href="https://www.linkedin.com/in/nlin10/">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div>
+                <h3 class="mt-3">LinkedIn</h3>
+              </div>
+            </a>
           </div>
+          
         </div>
         <div class="col-md-4 d-flex wow animate__animated animate__fadeInUp animate_stagger_2">
           <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <i class="fas fa-phone-alt"></i>
-            </div>
-            <div>
-              <h3 class="mb-4">Phone Number</h3>
-              <p><a href="tel://1234567920">+ 1 (703)-472-8765</a></p>
-            </div>
+            <a target="_blank" href="https://github.com/Nicholas-Lin">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <h3 class="mt-3">GitHub</h3>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col-md-4 d-flex wow animate__animated animate__fadeInUp animate_stagger_3">
           <div class="align-self-stretch box text-center p-4 shadow">
-            <div class="icon d-flex align-items-center justify-content-center">
-              <i class="far fa-envelope"></i>
-            </div>
-            <div>
-              <h3 class="mb-4">Email</h3>
-              <p><a href="mailto:nicholaslin@email.virginia.edu">nicholaslin at email.virginia.edu</a></p>
-            </div>
+            <a href="mailto:nicholaslin@email.virginia.edu">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div>
+                <h3 class="mt-3">Email</h3>
+              </div>
+            </a>
           </div>
         </div>
       </div>
