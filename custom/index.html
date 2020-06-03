@@ -215,7 +215,7 @@
           <div id="page-3" class="page three">
             <h2 class="heading">Skills</h2>
             <h3>Programming Languages</h3>
-            <div class="row mx-auto my-auto pb-5 animate__animated animate__fadeInUp">
+            <div class="row mx-auto my-auto pb-5 wow animate__animated animate__fadeInUp">
               <div id="skill-carousel-1" class=" skill-carousel carousel slide w-100" data-ride="carousel">
                 <div class="carousel-inner w-100" role="listbox">
                   <div class="carousel-item active">
@@ -309,7 +309,7 @@
               </div>
             </div>
             <h3>Technical Skills</h3>
-            <div class="row mx-auto my-auto pb-5 animate__animated animate__fadeInUp">
+            <div class="row mx-auto my-auto pb-5 wow animate__animated animate__fadeInUp">
               <div id="skill-carousel-2" class=" skill-carousel carousel slide w-100" data-ride="carousel">
                 <div class="carousel-inner w-100" role="listbox">
                   <div class="carousel-item active">
@@ -446,7 +446,7 @@
         </div>
 
         <div id="project-1" class="row ml-5 mr-5 project">
-          <div class="col-xl-6 wow animate__animated animate__fadeInUp">
+          <div class="col-xl-6 wow animate__animated animate__fadeIn">
             <div id="project-carousel-1" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#project-carousel-1" data-slide-to="0" class="active"></li>
@@ -457,8 +457,10 @@
                 <div class="carousel-item active" style="background-image: url(images/projects/project1/home.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>Search Page</h5>
+                      <p>This page uses HTML5 geolocation to automatically fetch the user's location. I also implemented Google's geocoding API
+                        so that any non-exact location can be resolved to latitude/longitude coordinates for Yelp API query.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -466,16 +468,18 @@
                 <div class="carousel-item" style="background-image: url(images/projects/project1/results.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>Results Page</h5>
+                      <p>A list of merchants is retrieved using Yelp's fusion API. This list can be sorted based on price, reviews, rating, etc.</p>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item" style="background-image: url(images/projects/project1/results_map.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>Map Routing</h5>
+                      <p>A merchant can be selected on the list or by selecting a marker on the map. The Google Map API platform was used
+                        to both plot merchants on the map and calculate route details.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -518,12 +522,12 @@
                     d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z" />
                 </svg>
               </a>
-              <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
+              <a target="_blank" href="https://github.com/Nicholas-Lin/Capital-One-Summit"><i class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
         <div id="project-2" class="row ml-5 mr-5 project">
-          <div class="col-xl-6 wow animate__animated animate__fadeInUp">
+          <div class="col-xl-6 wow animate__animated animate__fadeIn">
 
             <div id="project-carousel-2" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -576,12 +580,16 @@
           <div class="col-xl-6 project-description wow animate__animated animate__fadeInUp">
             <h2>Voice Assistant Screen Reader</h2>
             <p>
-              Software prototype that enables blind and vision-impaired users to navigate and access content on the
-              internet through
-              voice commands.
-              Software prototype that enables blind and vision-impaired users to navigate and access content on the
-              internet through
-              voice commands.
+              I was inspired by an article about the struggles that blind individuals faced when using the internet. 
+              In order to navigate websites, blind individuals use software which reads aloud every element of a webpage, 
+              often overwhelming the user with extraneous information. I envisioned a screen reader that would allow users to 
+              effectively control their browsers by using voice commands.  Currently, the prototype can process the user’s voice as input, 
+              produce a text and audio response as output, and navigate through the New York Times website and YouTube.
+              I developed this in Python because of the many robust libraries written for Python. 
+              Libraries act as tools for us to perform key functions such as converting text to voice or navigating through web pages for the user. 
+              The essential libraries that I used were Speech Recognition, Beautiful Soup, and Selenium.
+              I used Speech Recognition to convert between audio and text, Beautiful Soup to parse HTML and extract key information, and Selenium to control
+              the user's web browser.
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
               <a target="_blank" href="https://www.linkedin.com/in/nlin10/">
@@ -593,34 +601,32 @@
                     d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z" />
                 </svg>
               </a>
-              <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
+              <a target="_blank" href="https://github.com/Nicholas-Lin/Visionary"><i class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
         <div id="project-3" class="row ml-5 mr-5 project">
-          <div class="col-xl-6 wow animate__animated animate__fadeInUp">
+          <div class="col-xl-6 wow animate__animated animate__fadeIn">
 
             <div id="project-carousel-3" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#project-carousel-3" data-slide-to="0" class="active"></li>
                 <li data-target="#project-carousel-3" data-slide-to="1"></li>
                 <li data-target="#project-carousel-3" data-slide-to="2"></li>
+                <li data-target="#project-carousel-3" data-slide-to="3"></li>
+                <li data-target="#project-carousel-3" data-slide-to="4"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active"
                   style="background-image: url(images/projects/project3/lidar_sim_1.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>I used the Heidelberg LiDAR Operations Simulator (HELIOS)1 to create LiDAR point clouds.
-                        I achieved this by accessing 3D models and placing them throughout the scene via code.
-                        This was a lengthy process, as I had to manually code the position, orientation, and size of
-                        each object and run the simulation to observe changes.
-                        I also changed many of the parameters of the LiDAR scanner, such as the scan frequency,
-                        wavelength, pulse width, etc.
-                        I then performed discretization calculation for each point in the cloud with respect to the
-                        position of the scanner to
-                        simulate the appropriate depth resolution.</p>
+                      <h5>LiDAR Simulation Environment</h5>
+                      <p>
+                        I used the Heidelberg LiDAR Operations Simulator (HELIOS) to create LiDAR point clouds.
+                        This is the 3D scene that I created. This was a time-intensive process, 
+                        as I had to manually code the position, orientation, and size of each object and run the simulation to observe changes.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -628,8 +634,13 @@
                 <div class="carousel-item" style="background-image: url(images/projects/project3/lidar_sim_2.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>The is an image title</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <h5>LiDAR Simulation Result</h5>
+                      <p>
+                        Here, simulated three-dimension (3D) ToF imaging based
+                        on fabricated resistive memory is depicted. The memristor-based ToF sensors show comparable
+                        resolution with high scalability and low power-operation, shedding light on transcending the structural
+                        limitation of current 3D sensors.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -637,11 +648,29 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Ray Tracing Simulation</h5>
-                      <p>This is a description for this image. It is not very long.</p>
+                      <p>This is an example of one simulation trial using COMSOL Multiphysics. I arranged the objects in the simulation to perform a variety of different tests and collected data accordingly.</p>
                     </div>
                   </div>
                 </div>
-
+                <div class="carousel-item" style="background-image: url(images/projects/project3/graph.png)  ">
+                  <div class="overlay">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ray Tracing Data: Number of Rays Received vs. Time</h5>
+                      <p>This is the corresponding graph of the previous simulation, depicting the number of rays that the receiver receives as a function of time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(images/projects/project3/memristor_sample.png)  ">
+                  <div class="overlay">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Memristor Quality Assurance Testing</h5>
+                      <p>
+                        This is a memristor sample received from a University Lab. I tested memristors for quality assurance.
+                        This involved viewing samples under a digital microscope, applying voltage, and reading a current vs. voltage graph on an osciloscope.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <a class="carousel-control-prev" href="#project-carousel-3" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -657,14 +686,19 @@
           <div class="col-xl-6 project-description wow animate__animated animate__fadeInUp">
             <h2>LiDAR and Ray-Tracing Simulations</h2>
             <p>
-
-              The figures generated by my simulations will be featured in the research paper as well as The Spectra, the
+              I have a strong passion for research and have been heavily involved in research as a student at UVA.
+              I am currently researching applications of resistive memory. Resistive memory (memristors), are a two-terminal method of storing data 
+              and enabling parallel computing, based on spike-based neural networks by mimicking authentic bio-neural spike
+              response. Memristors have promising applications in distance mapping and 3D imaging technology.
+              I developed LiDAR and ray tracing simulations to properly model the applications of memristors.
+              I used software to simulate LiDAR by placing 3D objects using XML to generate 3D point clouds
+              and controlled many of the parameters of the LiDAR scanner, such as the scan frequency, wavelength, pulse width, etc. in order to properly simulate the capabilities of 
+              I also modeled optical ray tracing simulations and collected data accordingly.
+              The figures and data generated by my simulations will be featured in the research paper as well as The Spectra, the
               Undergraduate Science and Engineering Journal at UVA.
-              I was also responsible for writing the methods for this section of the research paper.
-
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
-              <a target="_blank" href="https://www.linkedin.com/in/nlin10/">
+              <a target="_blank" href="https://pages.shanti.virginia.edu/tfdevicelab/">
                 <svg class="bi bi-box-arrow-up-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd"
@@ -673,12 +707,11 @@
                     d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z" />
                 </svg>
               </a>
-              <a target="_blank" href="https://github.com/Nicholas-Lin"><i class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
         <div id="project-4" class="row ml-5 mr-5 project">
-          <div class="col-xl-6 wow animate__animated animate__fadeInUp">
+          <div class="col-xl-6 wow animate__animated animate__fadeIn">
             <div id="project-carousel-4" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url(images/projects/project4/landing.png)  ">

@@ -74,12 +74,7 @@ a{
 #projects .carousel, .carousel-inner{
     height: 100%;
 }
-@media (max-width: 1200px) {
-    #projects .carousel, #projects .carousel-inner{
-        height: 40vw;
-        margin-bottom: 2em;
-    }
- }
+
 #projects .carousel-inner .carousel-item{ 
     /*height: 30vw; */
     /*max-width: 60vw;*/
@@ -90,6 +85,16 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+ }
+
+ @media (max-width: 1200px) {
+    #projects .carousel, #projects .carousel-inner{
+        height: 40vw;
+        margin-bottom: 2em;
+    }
+    #projects .carousel-inner .carousel-item{
+        min-height: 100%;
+    }
  }
 
  
