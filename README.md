@@ -1,4 +1,5 @@
 # My Personal Website
+This is a personal website showcasing my experiences and projects.
 <img src="images/projects/project4/landing.png" title="screenshot of landing page">
 
 ## Built With
