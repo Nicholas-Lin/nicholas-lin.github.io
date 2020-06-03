@@ -1,6 +1,5 @@
 # My Personal Website
-<img src="screenshots/home.png" width="50%" title="Search screen"><img src="screenshots/results.png" width="50%" title="Search results screen">
-This is a personal website showcasing my experiences and projects.
+<img src="images/projects/project4/landing.png" title="screenshot of landing page">
 
 ## Built With
 - HTML
