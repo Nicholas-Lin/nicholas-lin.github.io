@@ -1,6 +1,15 @@
+/**
+ * File Name: carousel.js
+ * Author: Nicholas Lin
+ * Date: 6/4/20
+ * Description: Main javascript for carousels
+ */
 
 
-$('.skill-carousel .carousel-item').each(function() {
+/**
+ * Description: JS for skill carousel
+ */
+$('.skill-carousel .carousel-item').each(function () {
     var minPerSlide = 4;
     var next = $(this).next();
     if (!next.length) {
@@ -18,6 +27,9 @@ $('.skill-carousel .carousel-item').each(function() {
     }
 });
 
+/**
+ * Time parameter for project carousel
+ */
 $('.project-carousel').carousel({
-    interval: 1000 * 10
-  });
+    interval: 800 * 10
+});

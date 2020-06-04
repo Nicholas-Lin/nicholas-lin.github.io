@@ -1,3 +1,10 @@
+/**
+ * File Name: main.js
+ * Date: 6/4/20
+ * Description: Javascript for typing effect on landing page
+ * Reference: https://codepen.io/gschier/pen/jkivt
+ */
+
 var TxtRotate = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
