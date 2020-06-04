@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Nicholas Lin's Portfolio">
@@ -56,11 +55,12 @@
     </div>
   </nav>
 
-
+  <!-- Particle Background -->
   <div id="particles-js"></div>
+
+  <!-- Home/Landing Page -->
   <header id="home" class="bg-primary text-white">
     <div class="container-fluid d-flex align-items-center justify-content-center h-100 slider-text">
-
       <div class="row d-flex justify-content-center text-center w-100">
         <div class="col-md-10 animate__animated animate__fadeInUp">
           <span class="subheading">Hey! I am</span>
@@ -80,7 +80,7 @@
     </a>
   </header>
 
-
+  <!-- About Section -->
   <section id="about">
     <div class="container">
       <div class="row d-flex no-gutters">
@@ -90,27 +90,28 @@
         <div class="col-md-6 col-lg-6 pl-md-5 wow animate__animated animate__fadeInUp ">
           <div class="row no-gutters d-flex flex-column about-section h-100">
             <h1>About Me</h1>
-            <p> I'm a computer science student at the University fo Virginia.
+            <p> I'm a computer science student at the University of Virginia.
               I have a passion of learning and applying knowledge to solve complex problems.
               I value techincal knowledge as much as communication, empathy, and collaboration.
               Some of my interests include machine learning, cybersecurity, and research.
               I also love playing guitar and drawing.
-
-
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
-              <a target = "_blank" href="https://docs.google.com/document/d/15CaKYITmIG9NWUuDm02ljqt39TBiMpXiK6n9syNT2y4/edit?usp=sharing" class="btn btn-primary py-3 px-3">Download Resumé</a>
-              
+              <a target="_blank"
+                href="https://docs.google.com/document/d/15CaKYITmIG9NWUuDm02ljqt39TBiMpXiK6n9syNT2y4/edit?usp=sharing"
+                class="btn btn-primary py-3 px-3">Download Resumé</a>
             </div>
           </div>
         </div>
       </div>
   </section>
 
+  <!-- Resume Section -->
   <section id="resume">
     <div class="container">
       <div class="row no-gutters">
         <div class="col-md-3">
+          <!-- Side Navigation -->
           <nav id="navi">
             <ul>
               <li><a href="#page-1" class="js-scroll-trigger">Education</a></li>
@@ -121,14 +122,13 @@
           </nav>
         </div>
         <div class="col-md-9">
-
+          <!-- Education page -->
           <div id="page-1" class="page one">
             <h2 class="heading">Education</h2>
             <div class="resume-wrap d-flex wow animate__animated animate__fadeInUp">
               <div class="icon-formatter d-flex justify-content-center">
                 <div class="icon" style="background-image: url(./images/resume/uva.svg);"></div>
               </div>
-
               <div class="text pl-3 pr-3 pr-3">
                 <span class="date">Expected 2023</span>
                 <h2>Bachelor of Science in Computer Science</h2>
@@ -140,7 +140,7 @@
               </div>
             </div>
           </div>
-
+          <!-- Experiences page -->
           <div id="page-2" class="page two">
             <h2 class="heading">Experience</h2>
             <div class="resume-wrap d-flex wow animate__animated animate__fadeInUp">
@@ -211,7 +211,7 @@
               </div>
             </div>
           </div>
-
+          <!-- Skills page -->
           <div id="page-3" class="page three">
             <h2 class="heading">Skills</h2>
             <h3>Programming Languages</h3>
@@ -381,8 +381,7 @@
               </div>
             </div>
           </div>
-
-
+          <!-- Awards page -->
           <div id="page-4" class="page four">
             <h2 class="heading">Awards</h2>
             <div class="resume-wrap d-flex wow animate__animated animate__fadeInUp">
@@ -431,12 +430,12 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <div class="container-fluid">
       <div class="row d-flex flex-column">
@@ -444,7 +443,7 @@
           <h1>Projects</h1>
           <h3>Here are some exciting projects I've been working on</h3>
         </div>
-
+        <!-- First Project-->
         <div id="project-1" class="row ml-5 mr-5 project">
           <div class="col-xl-6 wow animate__animated animate__fadeIn">
             <div id="project-carousel-1" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
@@ -458,8 +457,10 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Search Page</h5>
-                      <p>This page uses HTML5 geolocation to automatically fetch the user's location. I also implemented Google's geocoding API
-                        so that any non-exact location can be resolved to latitude/longitude coordinates for Yelp API query.
+                      <p>This page uses HTML5 geolocation to automatically fetch the user's location. I also implemented
+                        Google's geocoding API
+                        so that any non-exact location can be resolved to latitude/longitude coordinates for Yelp API
+                        query.
                       </p>
                     </div>
                   </div>
@@ -469,7 +470,8 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Results Page</h5>
-                      <p>A list of merchants is retrieved using Yelp's fusion API. This list can be sorted based on price, reviews, rating, etc.</p>
+                      <p>A list of merchants is retrieved using Yelp's fusion API. This list can be sorted based on
+                        price, reviews, rating, etc.</p>
                     </div>
                   </div>
                 </div>
@@ -477,7 +479,8 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Map Routing</h5>
-                      <p>A merchant can be selected on the list or by selecting a marker on the map. The Google Map API platform was used
+                      <p>A merchant can be selected on the list or by selecting a marker on the map. The Google Map API
+                        platform was used
                         to both plot merchants on the map and calculate route details.
                       </p>
                     </div>
@@ -522,10 +525,12 @@
                     d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z" />
                 </svg>
               </a>
-              <a target="_blank" href="https://github.com/Nicholas-Lin/Capital-One-Summit"><i class="fab fa-github"></i></a>
+              <a target="_blank" href="https://github.com/Nicholas-Lin/Capital-One-Summit"><i
+                  class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
+        <!-- Second Project-->
         <div id="project-2" class="row ml-5 mr-5 project">
           <div class="col-xl-6 wow animate__animated animate__fadeIn">
 
@@ -554,8 +559,10 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Data Flow Model</h5>
-                      <p>This is a high-level diagram of how the prototype works. the prototype can process the user’s voice as input, 
-                        produce a text and audio response as output, and navigate through the New York Times website and YouTube.</p>
+                      <p>This is a high-level diagram of how the prototype works. the prototype can process the user’s
+                        voice as input,
+                        produce a text and audio response as output, and navigate through the New York Times website and
+                        YouTube.</p>
                     </div>
                   </div>
                 </div>
@@ -567,8 +574,10 @@
                       <p>
                         Neural networks can be leveraged to scale this model to other websites.
                         Machine learning can recognize common website structures,
-                        identify headers, main content, links, etc. and use the website’s structure to extract information.
-                        This information can then be "cached" so that frequently visited websites only need to be analyzed once.
+                        identify headers, main content, links, etc. and use the website’s structure to extract
+                        information.
+                        This information can then be "cached" so that frequently visited websites only need to be
+                        analyzed once.
                       </p>
                     </div>
                   </div>
@@ -590,17 +599,24 @@
             <h2>Visionary</h2>
             <h3>A Voice-Driven Screen Reader</h3>
             <p>
-              I was inspired by an article about the struggles that blind individuals face when using the internet. 
-              In order to navigate websites, blind individuals use software which reads aloud every element of a webpage, 
-              often overwhelming the user with extraneous information. I envisioned a screen reader that would allow users to 
+              I was inspired by an article about the struggles that blind individuals face when using the internet.
+              In order to navigate websites, blind individuals use software which reads aloud every element of a
+              webpage,
+              often overwhelming the user with extraneous information. I envisioned a screen reader that would allow
+              users to
               effectively control their browsers by using voice commands.
-              I developed this in Python because of the many robust libraries written for Python. 
-              The program first processes vocal input from the user and converts this voice to text using the Speech Recognition65 library which leverages  
-              Google’s Speech to Text API. The program then parses the input for keywords based on the content that the user is viewing.
-              Then the program uses the Selenium library to automate the web browser accordingly. The program then uses Beautiful Soup
-              to parse the HTML for key information and stores this information in objects. Lastly, the program composes output based on 
+              I developed this in Python because of the many robust libraries written for Python.
+              The program first processes vocal input from the user and converts this voice to text using the Speech
+              Recognition65 library which leverages
+              Google’s Speech to Text API. The program then parses the input for keywords based on the content that the
+              user is viewing.
+              Then the program uses the Selenium library to automate the web browser accordingly. The program then uses
+              Beautiful Soup
+              to parse the HTML for key information and stores this information in objects. Lastly, the program composes
+              output based on
               the user input and the appropriate Object data, then converts this output to voice for the user.
-              I am currently researching integrating AI/ML or leveraging an accessibility API to scale this to other websites.
+              I am currently researching integrating AI/ML or leveraging an accessibility API to scale this to other
+              websites.
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
               <a target="_blank" href="https://www.youtube.com/watch?v=ahDwlm0szXE">
@@ -616,9 +632,9 @@
             </div>
           </div>
         </div>
+        <!-- Third Project-->
         <div id="project-3" class="row ml-5 mr-5 project">
           <div class="col-xl-6 wow animate__animated animate__fadeIn">
-
             <div id="project-carousel-3" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#project-carousel-3" data-slide-to="0" class="active"></li>
@@ -635,8 +651,9 @@
                       <h5>LiDAR Simulation Environment</h5>
                       <p>
                         I used the Heidelberg LiDAR Operations Simulator (HELIOS) to create LiDAR point clouds.
-                        This is the 3D scene that I created. This was a time-intensive process, 
-                        as I had to manually code the position, orientation, and size of each object and run the simulation to observe changes.
+                        This is the 3D scene that I created. This was a time-intensive process,
+                        as I had to manually code the position, orientation, and size of each object and run the
+                        simulation to observe changes.
                       </p>
                     </div>
                   </div>
@@ -649,7 +666,8 @@
                       <p>
                         Here, simulated three-dimension (3D) ToF imaging based
                         on fabricated resistive memory is depicted. The memristor-based ToF sensors show comparable
-                        resolution with high scalability and low power-operation, shedding light on transcending the structural
+                        resolution with high scalability and low power-operation, shedding light on transcending the
+                        structural
                         limitation of current 3D sensors.
                       </p>
                     </div>
@@ -659,7 +677,8 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Ray Tracing Simulation</h5>
-                      <p>This is an example of one simulation trial using COMSOL Multiphysics. I arranged the objects in the simulation to perform a variety of different tests and collected data accordingly.</p>
+                      <p>This is an example of one simulation trial using COMSOL Multiphysics. I arranged the objects in
+                        the simulation to perform a variety of different tests and collected data accordingly.</p>
                     </div>
                   </div>
                 </div>
@@ -667,17 +686,21 @@
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Ray Tracing Data: Number of Rays Received vs. Time</h5>
-                      <p>This is the corresponding graph of the previous simulation, depicting the number of rays that the receiver receives as a function of time.</p>
+                      <p>This is the corresponding graph of the previous simulation, depicting the number of rays that
+                        the receiver receives as a function of time.</p>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item" style="background-image: url(images/projects/project3/memristor_sample.png)  ">
+                <div class="carousel-item"
+                  style="background-image: url(images/projects/project3/memristor_sample.png)  ">
                   <div class="overlay">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Memristor Quality Assurance Testing</h5>
                       <p>
-                        This is a memristor sample received from a University Lab. I tested memristors for quality assurance.
-                        This involved viewing samples under a digital microscope, applying voltage, and reading a current vs. voltage graph on an osciloscope.
+                        This is a memristor sample received from a University Lab. I tested memristors for quality
+                        assurance.
+                        This involved viewing samples under a digital microscope, applying voltage, and reading a
+                        current vs. voltage graph on an osciloscope.
                       </p>
                     </div>
                   </div>
@@ -699,14 +722,18 @@
             <h3>LiDAR and Ray-Tracing Simulations</h3>
             <p>
               I have a strong passion for research and have been heavily involved in research as a student at UVA.
-              I am currently researching applications of resistive memory. Resistive memory (memristors), are a two-terminal method of storing data 
-              and enabling parallel computing, based on spike-based neural networks by mimicking authentic bio-neural spike
+              I am currently researching applications of resistive memory. Resistive memory (memristors), are a
+              two-terminal method of storing data
+              and enabling parallel computing, based on spike-based neural networks by mimicking authentic bio-neural
+              spike
               response. Memristors have promising applications in distance mapping and 3D imaging technology.
               I developed LiDAR and ray tracing simulations to properly model the applications of memristors.
               I used software to simulate LiDAR by placing 3D objects using XML to generate 3D point clouds
-              and controlled many of the parameters of the LiDAR scanner, such as the scan frequency, wavelength, pulse width, etc. in order to properly simulate the capabilities of 
+              and controlled many of the parameters of the LiDAR scanner, such as the scan frequency, wavelength, pulse
+              width, etc. in order to properly simulate the capabilities of
               I also modeled optical ray tracing simulations and collected data accordingly.
-              The figures and data generated by my simulations will be featured in the research paper as well as The Spectra, the
+              The figures and data generated by my simulations will be featured in the research paper as well as The
+              Spectra, the
               Undergraduate Science and Engineering Journal at UVA.
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
@@ -722,6 +749,7 @@
             </div>
           </div>
         </div>
+        <!-- Fourth Project-->
         <div id="project-4" class="row ml-5 mr-5 project">
           <div class="col-xl-6 wow animate__animated animate__fadeIn">
             <div id="project-carousel-4" class="carousel slide carousel-fade project-carousel" data-ride="carousel">
@@ -743,12 +771,14 @@
               did not
               just use a template and paste my own content in. For example,I built the carousels with custom CSS to add
               features that Bootstrap's carousels did not offer.
-              I also used JS to create interactive navigation based on what the user is viewing. I animated elements with animate.css and wow.js. 
+              I also used JS to create interactive navigation based on what the user is viewing. I animated elements
+              with animate.css and wow.js.
               The main challenges of creating this website was conceptualizing the design I wanted to create, and
-              executing the design in a fully responsive website. 
+              executing the design in a fully responsive website.
             </p>
             <div class="row mt-auto no-gutters justify-content-left">
-              <a target="_blank" href="https://github.com/Nicholas-Lin/nicholas-lin.github.io"><i class="fab fa-github"></i></a>
+              <a target="_blank" href="https://github.com/Nicholas-Lin/nicholas-lin.github.io"><i
+                  class="fab fa-github"></i></a>
             </div>
           </div>
         </div>
@@ -756,7 +786,7 @@
     </div>
   </section>
 
-
+  <!-- Contact Section -->
   <section id="contact">
     <div class="container">
       <div class="row pb-5">
@@ -767,11 +797,10 @@
         <div class="col-md-6">
           <img src="./images/contact.gif" class="shadow" alt="">
         </div>
-
       </div>
       <div class="row d-flex contact-info mb-5">
         <div class="col-md-4 d-flex wow animate__animated animate__fadeInUp animate_stagger_1">
-          
+
           <div class="align-self-stretch box text-center p-4 shadow">
             <a target="_blank" href="https://www.linkedin.com/in/nlin10/">
               <div class="icon d-flex align-items-center justify-content-center">
@@ -782,7 +811,7 @@
               </div>
             </a>
           </div>
-          
+
         </div>
         <div class="col-md-4 d-flex wow animate__animated animate__fadeInUp animate_stagger_2">
           <div class="align-self-stretch box text-center p-4 shadow">
@@ -813,13 +842,11 @@
     </div>
   </section>
 
-
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Nicholas Lin &copy; 2020</p>
     </div>
-    <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
@@ -829,15 +856,20 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
+  <!-- Custom JavaScript for scrolling -->
   <script src="js/scrolling-nav.js"></script>
 
-
+  <!-- js for Particle js -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="js/app.js"></script>
 
+  <!-- Custom js for this page -->
   <script src="js/main.js"></script>
+
+  <!-- Custom js for carousel -->
   <script src="js/carousel.js"></script>
+
+  <!-- WOW js -->
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();
