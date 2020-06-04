@@ -31,6 +31,8 @@ a:hover{
     color: inherit;
 }
 
+
+
 header{
     padding-top: 50px;
     height: 100%;
@@ -563,7 +565,41 @@ a{
         margin-bottom: 1em;
     
 }
+.card{
+    position: relative;
+    width: auto;
+    height: 250px;
+    max-height: 250px;
 
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    color:black;
+
+
+        
+      
+}
+
+.card-body{
+    min-width: 100%;
+    max-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card h2{
+    font-size: large;
+    color:black;
+}
+
+.card-body img{
+    max-width: 100%;
+    max-height: 100px;
+    width:auto;
+    height: auto;
+}
 
 /*********************************************************************/
 /* Bootstrap 4 Multiple Item Carousel */
@@ -616,11 +652,6 @@ a{
 #resume .carousel-inner .carousel-item-left {
     transform: translateX(0);
 }
-
-/*********************************************************************/
-/* Animate CSS */
-/*********************************************************************/
-
 .wow {
     visibility: hidden;
  }
@@ -634,10 +665,6 @@ a{
  .animate_stagger_3{
     animation-delay: 0.3s;
  }
-
-/*********************************************************************/
-/* Button Style CSS */
-/*********************************************************************/
 
  .btn.btn-primary {
     background: #3e64ff;
