@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 1. Cut down visionary project description
-=======
-1. Comment code
->>>>>>> 0ac57510791358110ffb5b862cec16292afac453
